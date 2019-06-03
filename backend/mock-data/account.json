@@ -1,0 +1,39 @@
+{
+  "name": "Premier Checking",
+  "last4": "...6078",
+  "balance": 895030,
+  "transactions": [
+    {
+      "id": 1,
+      "merchant": {
+        "name": "Marcy's",
+        "ref": "ABERCROMBIEKIDS#119GARDENCITYNY",
+        "icon": "assets/icon_retail.svg"
+      },
+      "trans_date": "08/11/2018",
+      "trans_amount": "12032"
+    },
+    {
+      "id": 2,
+      "merchant": {
+        "name": "AMC Loews",
+        "ref": "HOLIDAYINNSTARPONSPRINGSFL",
+        "icon": "assets/icon_retail.svg"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "3719"
+    },
+    {
+      "id": 3,
+      "merchant": {
+        "name": "ASOS.com",
+        "ref": "WWW.SKYPE.COMLONDON",
+        "icon": "assets/icon_online_retail.svg"
+      },
+      "trans_date": "08/10/2018",
+      "trans_amount": "2329",
+      "trans_amount_org": "1800",
+      "trans_amount_org_curr": "GBP"
+    }
+  ]
+}
