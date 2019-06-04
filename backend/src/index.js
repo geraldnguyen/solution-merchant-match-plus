@@ -9,6 +9,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Mock data
 app.get('/account', require('./apis/account').getAccount);
+app.get('/transaction/:id', require('./apis/transaction').getTransaction);
 
 // Merchant Information (identifier, places)
 app.get('/merchant/:merchantRef', require('./apis/merchant').getMerchant);
