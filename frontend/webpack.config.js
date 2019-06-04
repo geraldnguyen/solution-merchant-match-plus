@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const Dotenv = require('dotenv-webpack');
 
 const SRC = path.resolve(__dirname, 'src');
 const DIST = path.resolve(__dirname, 'dist');
@@ -55,6 +56,7 @@ module.exports = {
       title: 'Partner Bank',
       template: path.join(SRC, 'index.html')
     }),
+    new Dotenv()
   ],
 
 }

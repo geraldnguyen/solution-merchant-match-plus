@@ -38,7 +38,7 @@ export default class Map extends Component {
 
     this.script = document.createElement("script");
 
-    this.script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyABtRju5ggXyWjA5U50K6aetAhIx9WBSUs&libraries=places&callback=initMap";
+    this.script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAP_KEY}&libraries=places&callback=initMap`;
     this.script.async = true;
 
     document.body.appendChild(this.script);
