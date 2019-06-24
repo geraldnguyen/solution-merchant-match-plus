@@ -9,6 +9,7 @@ Start backend API server
 
 ```
 cd backend
+npm i
 node src/index.js
 ```
 

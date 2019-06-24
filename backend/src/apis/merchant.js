@@ -52,6 +52,7 @@ const getMerchant = (req, res) => {
       res.send(merchant);
     })
     .catch(error => {
+      res.status(500);
       res.send(error);
       return;
     });

@@ -89,3 +89,4 @@ typings/
 
 # Credential
 .credential/
+*.p12
