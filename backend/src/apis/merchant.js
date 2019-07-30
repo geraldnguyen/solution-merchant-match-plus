@@ -24,6 +24,7 @@ const getMerchant = (req, res) => {
 
   // get merchant identifier:
   getMerchantIdentifierByMerchantId(merchantRef)
+    .then(mid => mid.merchant)
     .then(mid => {
       merchant = {
         ref: merchantRef,
@@ -52,6 +53,7 @@ const getMerchant = (req, res) => {
       res.send(merchant);
     })
     .catch(error => {
+      console.error("Error", error)
       res.status(500);
       res.send(error);
       return;
