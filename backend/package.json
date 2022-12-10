@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash": "^4.17.13",
     "mastercard-merchant-identifier": "^2.0.0",
     "mastercard-places": "^1.0.5",
